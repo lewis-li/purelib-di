@@ -1,0 +1,11 @@
+{
+    "name": "purelib/di",
+    "require": {
+        "pimple/pimple": "2.0.*@dev"
+    }
+    , "autoload": {
+		"psr-4": {
+			"PureLib\\Di\\": "src/"
+		}
+    }
+}
